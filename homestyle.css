@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+}
+.container{
+    margin:0 auto;
+    max-width: 1000px;
+}
+.container>header{
+    border: 0;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: blue;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>article{
+    background-color:white;
+}
+.container>footer{
+    border-top: 5px double blue;
+    line-height: 50px;
+    background-color: blue;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+.container>nav>a:hover{
+    color: black;
+    border-radius: 3px;
+    background-color: aqua;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 800px;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}

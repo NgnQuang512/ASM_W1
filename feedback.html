@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .theboc{
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .theboc form fieldset{
+            margin: 5px;
+        }
+        .theboc div form button{
+            border-radius: 5px;
+        }
+        .theboc form fieldset input:hover{
+            background-color: antiquewhite;
+        }
+    </style>
+    <div style="border: 2px;width: 500px;margin: auto;height: auto;background-color:aquamarine;" class="theboc">
+        <form action="">
+            <fieldset>
+                <legend>Ho Ten</legend>
+                <input type="text" placeholder="Ho va ten">
+            </fieldset>
+            <fieldset>
+                <legend>Gioi Tinh</legend>
+                <input type="radio" name="gender" id="gendernam">
+                <label for="gendernam">Nam</label>
+                <input type="radio" name="gender" id="gendernu">
+                <label for="gendernu">Nu</label>
+            </fieldset>
+            <fieldset>
+                <legend>Chuc Vu</legend>
+                <input type="radio" name="cv" id="cvhs">
+                <label for="cvhs">Hoc Sinh</label>
+                <input type="radio" name="cv" id="cvgv">
+                <label for="cvgv">Giao Vien</label>
+                <input type="radio" name="cv" id="cvk">
+                <label for="cvk">Khac</label>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <input type="text" placeholder="exp@gmail.com">
+            </fieldset>
+            <fieldset>
+                <legend>Gop y</legend>
+                <textarea name="" id="" cols="30" rows="10">Dien y kien ban muon dong gop</textarea>
+            </fieldset>
+            <button>Gui</button>
+        </form>
+    </div>
+</body>
+</html>
